@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "mensagem",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "fila",
+      "connection": "slsweek_teste_SERVICEBUS"
+    }
+  ]
+}
